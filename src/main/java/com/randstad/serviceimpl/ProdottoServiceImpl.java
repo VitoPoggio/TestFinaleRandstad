@@ -1,4 +1,4 @@
-package com.randstad.ServiceImpl;
+package com.randstad.serviceimpl;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,6 +10,9 @@ import com.randstad.model.Prodotto;
 import com.randstad.repository.ProdottoRepository;
 import com.randstad.service.ProdottoService;
 
+/**
+ * Implementazione dei metodi necessari specificati in ProdottoService
+ */
 @Service
 public class ProdottoServiceImpl implements ProdottoService {
 

@@ -1,4 +1,4 @@
-package com.randstad.ServiceImpl;
+package com.randstad.serviceimpl;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,6 +10,10 @@ import com.randstad.model.Cliente;
 import com.randstad.repository.ClienteRepository;
 import com.randstad.service.ClienteService;
 
+
+/**
+ * Implementazione dei metodi necessari specificati in ClienteService
+ */
 @Service
 public class ClienteServiceImpl implements ClienteService {
 

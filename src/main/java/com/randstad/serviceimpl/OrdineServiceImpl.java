@@ -1,4 +1,4 @@
-package com.randstad.ServiceImpl;
+package com.randstad.serviceimpl;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,6 +10,9 @@ import com.randstad.model.Ordine;
 import com.randstad.repository.OrdineRepository;
 import com.randstad.service.OrdineService;
 
+/**
+ * Implementazione dei metodi necessari specificati in OrdineService
+ */
 @Service
 public class OrdineServiceImpl implements OrdineService {
 	
