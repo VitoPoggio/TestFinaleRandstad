@@ -1,4 +1,4 @@
-package com.ranstad.controller;
+package com.randstad.ServiceImpl;
 
 import java.util.List;
 
