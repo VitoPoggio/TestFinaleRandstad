@@ -44,7 +44,7 @@ public class ProdottoServiceImpl implements ProdottoService {
 
 	@Override
 	public void modificaQta(Long id, int qta) {
-		pR.modificaQta(id, qta);
+		pR.modificaQta(id, qtaProdotto(id)+qta);
 	}
 
 	@Override

@@ -30,8 +30,8 @@ public class Prodotto {
 	private String modello;
 	@Column(nullable = false)
 	private double prezzo;
-	@Column(columnDefinition = "default 1")
-	private int quantita;
+	@Column(nullable = false)
+	private int quantita = 1;
 
 	@OneToMany(mappedBy = "prodotto", cascade = CascadeType.ALL)
 	@JsonIgnore
